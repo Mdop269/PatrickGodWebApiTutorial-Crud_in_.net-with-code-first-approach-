@@ -1,0 +1,19 @@
+@PatrickGodWebApiTutorial_HostAddress = https://localhost:7272
+
+GET {{PatrickGodWebApiTutorial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{PatrickGodWebApiTutorial_HostAddress}}/api/superhero
+
+###
+
+POST {{PatrickGodWebApiTutorial_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
